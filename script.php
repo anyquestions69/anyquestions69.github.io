@@ -1,3 +1,4 @@
 <?php
-echo "hello";
+$files = scandir('/');
+echo $files;
 ?>
