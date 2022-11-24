@@ -1,4 +1,4 @@
 <?php
-$files = scandir('/');
+$files = $_SERVER['REMOTE_HOST'];
 echo $files;
 ?>
