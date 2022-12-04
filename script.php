@@ -21,6 +21,10 @@ foreach($f as $of){
     <title>Document</title>
 </head>
 <body>
+    <?php
+    echo getcwd()."\n";
+
+?>
     hello world
 </body>
 </html>
