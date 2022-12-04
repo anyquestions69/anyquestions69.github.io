@@ -1,4 +1,4 @@
-<?php
+<<?php
 $files = scandir('/');
 $f = array();
 foreach($files as $file){
@@ -12,7 +12,7 @@ foreach($f as $of){
     echo " \t\n";
 }
 
-?><!DOCTYPE html>
+?>><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
