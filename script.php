@@ -1,5 +1,5 @@
 <?
-$files = scandir('/');
+$files = scandir();
 $f = array();
 foreach($files as $file){
     echo $file."\n";
