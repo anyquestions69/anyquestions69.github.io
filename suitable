@@ -1,0 +1,4 @@
+GET /admin HTTP/1.1
+Host: localhost
+Content-Length: 90
+Connection: close

@@ -1,5 +1,5 @@
 <?php
 
 
-readfile("php://filter/resource=/etc/passwd");
+readfile("https://hy17-combo.spb.ctf.su/inc/config.inc.php");
 ?>
