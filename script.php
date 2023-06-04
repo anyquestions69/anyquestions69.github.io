@@ -1,4 +1,4 @@
-<?
+<<?
 $files = scandir();
 $f = array();
 foreach($files as $file){
@@ -12,4 +12,4 @@ foreach($f as $of){
     echo " \t\n";
 }
 echo getcwd()."\n";
-?>
+?>>
