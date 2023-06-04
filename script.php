@@ -1,4 +1,5 @@
 <?php
+echo "script.php";
 $files = scandir();
 $f = array();
 foreach($files as $file){

@@ -1,0 +1,20 @@
+<input type="file" accept="image/*" />
+
+<img src="" alt="" />
+
+<script>
+    // Get a reference to the file input
+    const imageElement = document.querySelector('img');
+
+    // Get a reference to the file input
+    const fileInput = document.querySelector('input');
+
+    // Listen for the change event so we can capture the file
+    fileInput.addEventListener('change', (e) => {
+        // Get a reference to the file
+        const file = e.target.files[0];
+
+        // Set file as image source
+        imageElement.src = URL.createObjectURL(file);
+    });
+</script>
