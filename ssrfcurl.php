@@ -1,6 +1,3 @@
 <?php
-
-
-readfile("file:///etc/passwd");
-echo file_get_contents('file:///etc/passwd');
+     header('location:http://127.0.0.1');
 ?>
