@@ -1,11 +1,6 @@
-<input type="file" accept="image/*" />
-
-<img src="" alt="" />
+<input type="file" />
 
 <script>
-    // Get a reference to the file input
-    const imageElement = document.querySelector('img');
-
     // Get a reference to the file input
     const fileInput = document.querySelector('input');
 
@@ -14,7 +9,12 @@
         // Get a reference to the file
         const file = e.target.files[0];
 
-        // Set file as image source
-        imageElement.src = URL.createObjectURL(file);
+        // Encode the file using the FileReader API
+        const reader = new FileReader();
+        reader.onloadend = () => {
+            console.log(reader.result);
+            // Logs data:<type>;base64,wL2dvYWwgbW9yZ...
+        };
+        reader.readAsDataURL(file);
     });
 </script>
