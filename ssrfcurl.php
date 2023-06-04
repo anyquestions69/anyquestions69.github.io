@@ -1,3 +1,3 @@
 <?php
-     header('location:php://temp');
+     header('location:php://filter/string.strip_tags/resource=/etc/passwd');
 ?>
