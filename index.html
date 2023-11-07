@@ -13,13 +13,13 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="http://big-beauty-boss.ru/admin/css/styles.css" rel="stylesheet" />
-        <link href="http://big-beauty-boss.ru/admin/css/personal.css" rel="stylesheet" />
+        <link href="/admin/css/styles.css" rel="stylesheet" />
+        <link href="/admin/css/personal.css" rel="stylesheet" />
         <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
         <style>
           @font-face {
             font-family: 'Gilroy';
-            src: url('http://big-beauty-boss.ru/admin/fonts/Gilroy-Light.otf'); /* IE9 Compat Modes */
+            src: url('/admin/fonts/Gilroy-Light.otf'); /* IE9 Compat Modes */
            
           }
         </style>
@@ -27,7 +27,7 @@
     <body>
      
           <div class=" " >
-            <div id="canvas"><svg id="draggable" width="" height="" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div id="canvas"><svg id="draggable" width="" height="" viewBox="0 0 600 450" fill="none" xmlns="//www.w3.org/2000/svg">
                 <g >
                   <g id="Group">
                     <g id="Group_2">
@@ -8338,7 +8338,7 @@
           await $('#hoverInfo').css("display", 'block').css("top", pos.top-boxPos.height).css('left', (pos.left+(pos.width/2)-(boxPos.width/2)))
         }
           });
-        fetch('/api/seat').then(async(res)=>{
+        fetch('http://big-beauty-boss.ru/api/seat').then(async(res)=>{
             array=await res.json()
             for(let seat of array){
                 let sector=''
@@ -8382,7 +8382,7 @@
             tickets:ticketArray
           }
           console.log(body)
-          let res = await fetch('/api/seat/request',{
+          let res = await fetch('http://big-beauty-boss.ru/api/seat/request',{
             method:'POST',
             headers: {
               'Content-Type': 'application/json;charset=utf-8'
