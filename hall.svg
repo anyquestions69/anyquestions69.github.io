@@ -1,18 +1,18 @@
-<svg id="draggable" width="" height="" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g id="ÑÑ…ÐµÐ¼Ð° Ð·Ð°Ð»Ð° 1">
+<svg  width="" height="" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g >
                   <g id="Group">
                     <g id="Group_2">
                       <g id="Group_3" transform="matrix(1, 0, 0, 1, -2.976301, -0.40362)">
                         <path id="Vector" d="M375.8 23.1992C375.8 23.1992 381.6 37.1992 381.6 42.2992C381.6 46.9992 370.9 97.4992 312 106.999C304.3 108.199 296.4 108.199 288.7 106.999C229.7 97.4992 219.1 46.9992 219.1 42.2992C219.1 37.1992 224.9 23.1992 224.9 23.1992" stroke="#2F2F2F" stroke-width="0.6479" stroke-miterlimit="10"></path>
-                        <text id="Ð¡Ð¦Ð•ÐÐ" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="12.8939" letter-spacing="0em"><tspan x="275.801" y="50.0442">СЦЕНА</tspan></text>
-                        <text id="ÐÐ&nbsp;Ð•ÐÐ" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="289.361" y="119.438">АРЕНА</tspan></text>
+                        <text fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="12.8939" letter-spacing="0em"><tspan x="275.801" y="50.0442">СЦЕНА</tspan></text>
+                        <text  fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="289.361" y="119.438">АРЕНА</tspan></text>
                         <g id="Group_4">
                           <path id="Vector_2" d="M295 302.6V303.8H297V304.4H295V306H294.2V302H297.2V302.6H295Z" fill="#2F2F2F"></path>
                           <path id="Vector_3" d="M298.7 305.799C298.4 305.599 298.1 305.399 297.9 304.999C297.7 304.699 297.6 304.299 297.6 303.899C297.6 303.499 297.7 303.099 297.9 302.799C298.1 302.499 298.4 302.199 298.7 301.999C299 301.799 299.4 301.699 299.8 301.699C300.2 301.699 300.6 301.799 300.9 301.999C301.2 302.199 301.5 302.399 301.7 302.799C301.9 303.199 302 303.499 302 303.899C302 304.299 301.9 304.699 301.7 304.999C301.5 305.299 301.2 305.599 300.9 305.699C300.6 305.899 300.2 305.999 299.8 305.999C299.4 305.999 299 305.999 298.7 305.799ZM300.6 305.199C300.8 305.099 301 304.899 301.1 304.699C301.2 304.499 301.3 304.199 301.3 303.999C301.3 303.799 301.2 303.499 301.1 303.299C301 303.099 300.8 302.899 300.6 302.799C300.4 302.699 300.1 302.599 299.9 302.599C299.7 302.599 299.4 302.699 299.2 302.799C299 302.899 298.8 303.099 298.7 303.299C298.6 303.499 298.5 303.799 298.5 303.999C298.5 304.199 298.6 304.499 298.7 304.699C298.8 304.899 299 305.099 299.2 305.199C299.4 305.299 299.7 305.399 299.9 305.399C300.1 305.399 300.3 305.399 300.6 305.199Z" fill="#2F2F2F"></path>
                           <path id="Vector_4" d="M306.4 302V306.1H305.6V304.4H303.5V306.1H302.7V302H303.5V303.7H305.6V302H306.4Z" fill="#2F2F2F"></path>
                         </g>
-                        <text id="Ð’Ð¥ÐžÐ”" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="3.8874" letter-spacing="0em"><tspan x="473.547" y="153.734">ВХОД</tspan></text>
-                        <text id="ÐŸÐÐ&nbsp;Ð¢Ð•Ð&nbsp;" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="287.159" y="222.028">ПАРТЕР</tspan></text>
+                        <text  fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="3.8874" letter-spacing="0em"><tspan x="473.547" y="153.734">ВХОД</tspan></text>
+                        <text fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="287.159" y="222.028">ПАРТЕР</tspan></text>
                         <text id="1" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="223.73" y="100.825">1</tspan></text>
                         <text id="2" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="223.73" y="118.434">2</tspan></text>
                         <text id="5" fill="#2F2F2F" style="white-space: pre" font-family="Gilroy" font-size="5.8231" letter-spacing="0em"><tspan x="202.351" y="133.735">5</tspan></text>
