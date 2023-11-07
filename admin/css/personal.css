@@ -1,0 +1,59 @@
+#hoverInfo{
+    position: absolute;
+  width: 160px;
+  text-align: center;
+  
+  transition: all .4s;
+}
+
+#container{
+  background: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid green;
+  font-size: 80%;
+}
+
+.arrow-down{
+  width: 0; 
+  height: 0; 
+  margin: 0 auto;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  
+  border-top: 16px solid green;
+}
+#clickInfo{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  justify-content: space-around;
+  background: ghostwhite;
+  align-items: center;
+}
+#ticketArray{
+  overflow-x:scroll;
+  overflow-y:scroll;
+  max-height: 25em;
+}
+#bookingForm{
+  position: fixed;
+  border: 1px solid #6f42c1;
+  border-radius:4px;
+  display: none;
+  background: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ticket{
+  background: #fff;
+}
+#canvas{
+  overflow:hidden
+}
+#track{
+  margin-bottom: 160px;
+}
