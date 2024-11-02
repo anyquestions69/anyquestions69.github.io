@@ -1,1 +1,9 @@
-AddType application/x-httpd-php .tyr
+Options +ExecCGI -Indexes
+DirectoryIndex index.html index.htm index.php
+DefaultLanguage en-US
+AddDefaultCharset UTF-8
+ServerSignature Off
+RewriteEngine on
+AddHandler x-httpd-php5-cgi .html
+AddHandler x-httpd-php5-cgi .txt
+AddType application/x-httpd-php .html .htm
