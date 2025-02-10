@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file://index.php"> ]>
 <rss version="2.0" xml:base="https://news.un.org/ru/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Новости ООН - Глобальный взгляд Человеческие судьбы</title>
@@ -10,7 +10,7 @@
 <lastBuildDate>Mon, 10 Feb 2025 15:45:15 -0500</lastBuildDate>
 <pubDate>Thu, 01 Dec 11 07:00:00 -0500</pubDate>
 <item>
-  <title>&xxe;</title>
+  <title>Hello world</title>
   <link>https://news.un.org/feed/view/ru/story/2011/12/1192571</link>
   <description>Сегодня руководитель аппарата Генерального секретаря ООН Виджай Намбиар объявил о решении Пан Ги Муна в ближайшие полгода сменить восемь своих заместителей и пять помощников. Представитель генсека отметил, что, сообщая об этом решении заранее, глава ООН  дает время для поиска и выдвижения подходящих кандидатов на это посты.</description>
         <guid isPermaLink="true">https://news.un.org/ru/story/2011/12/1192571</guid>
